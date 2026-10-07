@@ -47,18 +47,6 @@
         "analyse": "vendor/bin/phpstan analyse --no-progress"
     },
     "minimum-stability": "stable",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../core",
-            "options": {
-                "symlink": false,
-                "versions": {
-                    "phpclaw/phpclaw": "0.1.0"
-                }
-            }
-        }
-    ],
     "prefer-stable": true,
     "config": {
         "platform": {
